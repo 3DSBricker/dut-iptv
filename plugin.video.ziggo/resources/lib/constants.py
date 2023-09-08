@@ -4,7 +4,8 @@ from resources.lib.base.l3.language import _
 CONST_BASE_DOMAIN = 'prod.spark.ziggogo.tv'
 CONST_BASE_DOMAIN_MOD = True
 CONST_BASE_IP = dns_lookup('prod.spark.ziggogo.tv', "1.0.0.1")['A'][0]
-
+#TEMP!!!
+#CONST_BASE_IP = "2.19.195.226"
 CONST_URLS = {
     'auth_url': "https://prod.spark.ziggogo.tv/auth-service/v1/authorization",
     'base_url': 'https://prod.spark.ziggogo.tv/eng/web/',
